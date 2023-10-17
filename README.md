@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LDStore
+**The store's name is a fictitious name invented for educational purposes.**
 
-## Getting Started
+## An e-commerce store consuming a SASS service
 
-First, run the development server:
+## Table of Contents
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [What I Learned](#what-i-learned)
+
+## Overview
+
+This store is dedicated to the marketing of custom merchandising from a brand.
+This project was primarily built using Next.js, which is a fully modern and user-friendly e-commerce store. I also integrated a widely renowned international payment gateway, Stripe, and hosted it on a server using Vercel.
+
+##TechStack
+
+List the technologies, programming languages, and frameworks that I have used to build this project.
+
+- Frontend: Next.js, JS, Tailwind CSS, React Hot Toast, Zustand, and others.
+- Backend: API Integration, AXIOS, Stripe (For payments)
+- Deployment: Vercel
+
+## Installation
+A step-by-step to run this project and test it in a local environment.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone the repository
+git clone https://github.com/elian-dev/ecommerce-store.git
+
+# Navigate to the project directory
+cd ecommerce-store
+
+# Install dependencies
+npm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Create the .env file (Make sure you have the admin setup first)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+NEXT_PUBLIC_API_URL=
+```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Run the project
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##Features
+- API Integration: This store uses an API coded by me, which is a SaaS service so the objective is just to add the endpoint of the store that you want and you will have a store working.
+- Shopping cart: A Shopping cart functionality without the use of a third library was coded here,  which allowed me to learn more about the process and some special operations.
+- Stripe payment checkout: A very renowned payment platform was integrated to allow buying products.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##What I Learned
+- Javascript modern features: This project has allowed me to use modern features of JS, and understand more about how to use them and how they works. Additionally, you have allowed me to use good practices and keep a clean code.
+- Use the correct library and optimize development time: One of the main goals for this project was to code a SASS platform and the frontend app optimizing the time, and thanks to keeping a good organization of the project and using different very useful libraries those goals were achieved in the end.
+- Integrate a payment platform: That was something very new for me, but it is something that always wanted to learn, and this project allowed me to do it, I have learned to setup a local environment, use special tools to do testing, and about the endpoints and events when a person buys a product.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Special thanks to @codewithantonio on YouTube.
