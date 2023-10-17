@@ -1,4 +1,6 @@
-# LDStore
+# LDStore ![Version - 1.0.0](https://img.shields.io/badge/Version-1.0.0-2ea44f) 
+![Tech](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) 
+
 **The store's name is a fictitious name invented for educational purposes.**
 
 ## An e-commerce store consuming a SASS service
